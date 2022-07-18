@@ -60,7 +60,39 @@ p {
     border-radius: 10px;
 
 }
-#second-sec-child-border{
-    background-color:lightpink;
+
+#second-sec-child-border {
+    background-color: lightpink;
     border: 2px solid orange;
+}
+
+.third-sec-top-text {
+    text-align: center;
+    margin-top: 100px;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+
+.third-sec-parent {
+    display: flex;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.third-sec-child {
+    margin-left: 1.5%;
+    margin-right: 1.5%;
+    border-radius: 5%;
+    height:250px;
+    width: 500px;
+    padding: 10px;
+}
+#third-sec-c1{
+    background-color: cyan;
+}
+#third-sec-c2{
+    background-color: deepskyblue;
+}
+#third-sec-c3{
+    background-color: lightgreen;
 }
