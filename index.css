@@ -15,7 +15,7 @@ h1 {
 p {
     font-family: 'Playfair Display', serif;
     font-size: 20px;
-    
+
 }
 
 .first-sec-text {
@@ -24,11 +24,43 @@ p {
     padding: 10% 20% 10% 20%;
 }
 
-.first-sec-button {
+.donate-now-button {
     text-decoration: none;
     font-size: large;
     color: white;
     background-image: linear-gradient(orange, tomato);
     padding: 15px 30px;
     border-radius: 10%;
+}
+
+.second-sec-top-text {
+    text-align: center;
+    margin: 100px 20% 0 20%;
+}
+
+.second-section {
+    text-align: center;
+}
+
+.second-sec-parent {
+    display: flex;
+    text-align: center;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+
+.second-sec-child {
+    margin-left: 20px;
+    margin-right: 20px;
+    background-color: whitesmoke;
+    height: 80px;
+    width: 100px;
+    border: 2px solid ghostwhite;
+    border-bottom: 3px;
+    border-radius: 10px;
+
+}
+#second-sec-child-border{
+    background-color:lightpink;
+    border: 2px solid orange;
 }
